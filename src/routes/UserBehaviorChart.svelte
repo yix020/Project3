@@ -44,7 +44,7 @@
   
     onMount(async () => {
       // Load the data
-      data = await d3.csv('../static/user_behavior_dataset.csv', d => ({
+      data = await d3.csv('https://raw.githubusercontent.com/yix020/Project3/refs/heads/main/static/user_behavior_dataset.csv', d => ({
         age: +d['Age'],
         appUsage: +d['App Usage Time (min/day)']
       }));
