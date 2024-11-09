@@ -89,11 +89,12 @@
       svg.append('g')
         .call(d3.axisLeft(y))
         .append('text')
-        .attr('x', -10)
-        .attr('y', -10)
+        .attr('transform', 'rotate(-90)') // Rotate the label for readability
+        .attr('x', -height / 2)          // Position the label in the middle of the axis
+        .attr('y', -margin.left + 10)    // Adjust spacing
         .attr('fill', 'black')
-        .attr('text-anchor', 'end')
-        .text('App Usage Time (min/day)');
+        .attr('text-anchor', 'middle')  // Center the text
+        .text('Daily App Usage (minutes)');
   
       // Initial chart rendering
       updateChart();

@@ -53,8 +53,8 @@
       Our steps to develop the interactive visualization included sourcing the dataset, 
       defining the key questions, setting up the Svelte and D3.js environments, implementing 
       interactivity with D3.js, and deploying the project on GitHub Pages. The project took 
-      approximately four days to complete. Our group, consisting of <strong>Yingshan</strong> 
-      and myself, split the work evenly and collaborated for about 2–3 hours per day. I was 
+      approximately four days to complete. Our group, consisting of <strong>Yingshan Xie</strong> 
+      and <strong>Rongrong Xu</strong> , split the work evenly and collaborated for about 2–3 hours per day. Rongrong was 
       responsible for finding the dataset, defining the questions, and writing the summaries, 
       while Yingshan handled setting up the D3.js environment and implementing the interactive 
       features.
@@ -70,12 +70,6 @@
       color: #333;
   }
 
-  h1 {
-      text-align: center;
-      margin-bottom: 20px;
-      font-size: 1.8rem;
-      color: #555;
-  }
 
   p {
       margin-bottom: 1em;
